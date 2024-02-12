@@ -12,9 +12,9 @@
 
         public const string GetPersonById = "GetPersonById";
 
-        public const string UpdatePersonById = "UpdatePersonById";
+        public const string UpdatePersonOnId = "UpdatePersonOnId";
 
-        public const string DeletePersonById = "DeletePersonById";
+        public const string DeletePersonOnId = "DeletePersonOnId";
 
         public const string DeleteCoachSportType = "DeleteCoachSportType";
 
@@ -23,5 +23,9 @@
         public const string GetAllPersonsByRoleId = "GetAllPersonsByRoleId";
 
         public const string GetAllCoachesWithSportTypesWorkoutTypes = "GetAllCoachesWithSportTypesWorkoutTypes";
+
+        public const string GetCoachWithSportTypesWorkoutTypesById = "GetCoachWithSportTypesWorkoutTypesById";
+
+        public const string GetAllTimetablesWithCoachWorkoutsGymsClients = "GetAllTimetablesWithCoachWorkoutsGymsClients";
     }
 }
