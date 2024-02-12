@@ -21,7 +21,7 @@ namespace FitnessClub.BLL
 
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.AddProfile(new PersonMappingProfile());
+                cfg.AddProfile(new WorkoutMappingProfile());
             });
 
             _mapper = new Mapper(config);
