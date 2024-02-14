@@ -348,3 +348,6 @@ ASALocalRun/
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
+/FitnessClub/ConsoleApp3/ConsoleApp3.csproj
+/FitnessClub/ConsoleApp3/ConsoleApp3.csproj
+/FitnessClub/ConsoleApp3/Program.cs
