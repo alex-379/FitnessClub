@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FitnessClub.BLL.Mapping;
 using FitnessClub.BLL.Models.TimetableModels.OutputModels;
 using FitnessClub.BLL.Models.WorkoutModels.OutputModels;

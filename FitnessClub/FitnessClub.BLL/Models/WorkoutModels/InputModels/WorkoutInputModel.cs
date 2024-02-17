@@ -1,4 +1,4 @@
-﻿using FitnessClub.DAL.Dtos;
+using FitnessClub.DAL.Dtos;
 
 namespace FitnessClub.BLL.Models.WorrkoutModels.InputModels
 {
