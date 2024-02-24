@@ -16,7 +16,7 @@ namespace FitnessClub.TG.States
 
         public override void SendMessage(long ChatId)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

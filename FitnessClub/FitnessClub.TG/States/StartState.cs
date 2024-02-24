@@ -30,6 +30,10 @@ namespace FitnessClub.TG.States
                 {
                     return new ClientMyTimetableState();
                 }
+                if(callbackQuery.Data == "ClientRegistrationState")
+                {
+                    return new ClientRegistrationState();
+                }
 
                 return this;
             }
@@ -77,6 +81,8 @@ namespace FitnessClub.TG.States
                     { InlineKeyboardButton.WithCallbackData("Посмотреть расписание тренировок", "ClientAllTimetableState"),},
                     new InlineKeyboardButton[]
                     { InlineKeyboardButton.WithCallbackData("Посмотреть свои записи", "ClientMyTimetableState"),},
+                    new InlineKeyboardButton[]
+                    { InlineKeyboardButton.WithCallbackData("Зарегистрироваться", "ClientRegistrationState"),},
                 });
 
             SingletoneStorage.GetStorage().Client.SendTextMessageAsync(ChatId, $"Здравствуйте {_name}, добро пожаловать в наш фитнес клуб!", replyMarkup: inlineKeyboard);
